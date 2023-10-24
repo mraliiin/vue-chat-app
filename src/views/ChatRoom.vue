@@ -63,7 +63,7 @@ const sendReply = (message) => {
 
 .chat-room {
 	min-height: 400px;
-	min-width: 500px;
+	width: 500px;
 	max-height: 80%;
 	max-width: 800px;
 }
@@ -80,5 +80,16 @@ const sendReply = (message) => {
 .chat-footer {
 	height: 10%;
 	margin-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+	.chat-container {
+		width: 100%;
+	}
+
+	.chat-room {
+		max-height: 80%;
+		max-width: 90%;
+	}
 }
 </style>

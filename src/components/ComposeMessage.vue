@@ -56,6 +56,7 @@ const sendMessage = () => {
 	width: 100%;
 	font-size: 14px;
 	padding: 8px;
+	resize: none;
 }
 
 .input-field::-webkit-input-placeholder {
